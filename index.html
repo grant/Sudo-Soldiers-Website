@@ -1,16 +1,115 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Sudo Soldiers UW</title>
-<style>
-  body {font-family: sans-serif;}
-</style>
+	<meta charset="UTF-8">
+	<title>Sudo Soldiers</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+		body {
+			padding-top: 50px;
+		}
+		.starter-template {
+			padding: 40px 15px;
+			text-align: center;
+		}
+
+		ol {
+		    counter-reset: my-badass-counter;
+		    list-style:none;
+		}
+		ol li:before {
+		    content: counter(my-badass-counter, lower-alpha) ".";
+		    counter-increment: my-badass-counter;
+		    margin-right: 25px;
+		}
+	</style>
 </head>
 <body>
-<h1>$ sudo install soldiers</h1>
 
-Contact: <b>uwsudo<img src=http://www.washington.edu/computing/gifs/at.gif
-							alt='(at)'>uw.edu</b>
-</p>
-<hr>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sudo Soldiers</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#constitution">Constitution</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="starter-template">
+      	<div id="about" style="padding-bottom:400px;">
+	        <h1>Sudo Soldiers</h1>
+	        <p class="lead">We're a group of CSE students who want to learn skills from each other and work on side projects together. Come join us!</p>
+	    	<p>Contact: <strong>uwsudo<img src=http://www.washington.edu/computing/gifs/at.gif alt='(at)'>uw.edu</strong></p>
+      	</div>
+      	<div id="constitution">
+			<h2>Sudo Soldiers Constitution</h2>
+
+			<h3>Article I – Name</h3>
+			<p>The name of the organization shall be “Sudo Soldiers”.</p>
+
+			<h3>Article II – Purpose</h3>
+			<p>It shall be the purpose of this organization to get together every week to work on projects in teams, make or break something great and build strong relationships.</p>
+
+			<h3>Article III – Affiliations</h3>
+			<p>The organization has no affiliations with any external or internal organizations, groups or departments.</p>
+
+			<h3>Article IV – Membership:</h3>
+			<p>The membership of this organization shall consist of regularly enrolled undergraduate students of the University of Washington who have been admitted into either Computer Science or Computer Engineering major.</p>
+
+			<p>Only those members who are currently registered University of Washington students have voting privileges.</p>
+			<p>Eligibility requirements: Students of any class standing as long as they are admitted into either Computer Science or Computer Engineering major can become members.</p>
+
+			<h3>Article V – Officers:</h3>
+			<p>Selection of officers shall be held in May and elected officers will become active from the following Autumn quarter. The then-primary officer will notify of the elections using email and social media accounts.</p>
+			<p>Elections shall be held when any of the current officers: (i) wants to step down, (ii) graduates (iii) does not seem to perform well based on other officers' discretion.</p>
+			<p>Any member of the organization can nominate himself or herself for the available position(s), and any member can vote. Any nominee with the highest percentage of votes will be elected.</p>
+
+			<h3>Article VI – Meeting:</h3>
+			<p>The members of the organization shall meet every Sunday of the academic period. They will be notified using social media and email channels by any of the officers.</p>
+			<p>A quorum shall consist of 20% voting members or a percentage of voting members present at any regular or special meeting.</p>
+
+			<h3>Article VII – Executive Board:</h3>
+			<p>Management of this organization shall be vested in a board of directors.</p>
+			<p>The board shall consist of: 1 President, 1 Vice-President, 1 Treasurer, 2 Secretary.</p>
+
+			<p>Powers and duties of each position.</p>
+
+			<ol>
+			<li>The President shall serve as the Chief Executive Officer of the organization, shall preside at all meetings of the organization and shall prepare the agenda for meetings. The President shall be the official spokesperson of the organization, representing the policies, views, and opinions of the organization in its relations with the campus and community at large. The President shall appoint all committees and committee chairs. The President shall have such further powers and duties as may be prescribed by the organization.</li>
+
+			<li>The Vice President shall preside at organization meetings in the absence of the President. The Vice President shall perform all legal duties assigned by the President. The Vice President shall assume the office of President if the office becomes vacant.</li>
+
+			<li>The Treasurer shall handle all financial affairs and budgeting of the organization, maintain all necessary accounting records, and prepare monthly financial reports for the membership. Said records shall be maintained in accordance with generally accepted accounting principles. The Treasurer shall collect and deposit all dues and fees. The Treasurer shall maintain bank accounts in the organization’s name, requiring signatures of both the Treasurer and President for authorized disbursements.</li>
+
+			<li>The Secretary shall take minutes at all meetings of the organization, keep these on file, and submit required copies to all organization members. The Secretary shall be responsible for all organization correspondence and shall keep copies thereof on file. The Secretary shall maintain membership records for the organization.</li>
+			</ol>
+
+			<p>The Treasurer shall create an send monthly financial reports to all officers.</p>
+
+			<h3>Article VIII – Amendments:</h3>
+			<p>The constitution may be amended by a vote of two-‐thirds majority membership at any regular or special meeting. Members shall be notified by email and social media when at least 72 hours before</p>
+
+      	</div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
