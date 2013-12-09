@@ -1,7 +1,7 @@
 Sudo-Soldiers-Website
 =====================
 
-The website for UW's CSE side project club (students.washington.edu/uwsudo/)
+The website for UW's CSE side project club ([students.washington.edu/uwsudo/](students.washington.edu/uwsudo/))
 
 How to start
 ------------
